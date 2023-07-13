@@ -1,12 +1,17 @@
 /// Import do exercício 01 (exemplo):
 import 'ex01.dart';
+import 'ex02.dart';
+import 'ex03.dart';
+import 'ex04.dart';
+import 'ex05.dart';
+import 'dart:io';
 
 /// Use esse arquivo como base para realizar a atividade.
 /// Ao entregar, coloque seu e-mail no campo abaixo.
 
 /// >
 /// >
-/// E-mail para devolução: [seu e-mail]
+/// E-mail para devolução: [felipesgomes7@gmail.com]
 /// >
 /// >
 
@@ -24,18 +29,24 @@ void main() {
   ///
   /// Exercício 02:
   print("\n----------\n Exercício 02:\n");
+  decresente();
 
   ///
   /// Exercício 03:
   print("\n----------\n Exercício 03:\n");
+  print('digite um numero que possa ser primo');
+  int numeroparaverificar = int.parse(stdin.readLineSync()!);
+  print(primos(numeroparaverificar));
 
   ///
   /// Exercício 04:
   print("\n----------\n Exercício 04:\n");
+  somapares();
 
   ///
   /// Exercício 05:
   print("\n----------\n Exercício 05:\n");
+  tabuada();
 
   ///
   /// Exercício 06:
